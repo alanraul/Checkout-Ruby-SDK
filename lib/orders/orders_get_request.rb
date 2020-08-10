@@ -24,8 +24,6 @@ module PayPalCheckoutSdk
           @path = @path.gsub("{order_id}", CGI::escape(order_id.to_s))
           @headers["Content-Type"] = "application/json"
         end
-
-
       end
     end
 end
