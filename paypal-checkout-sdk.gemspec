@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.description = "This repository contains PayPal's Ruby SDK for Checkout REST API"
   spec.authors     = ["http://developer.paypal.com"]
   spec.email       = 'dl-paypal-checkout-api@paypal.com'
-  spec.homepage    = 'https://github.com/paypal/Checkout-Ruby-SDK'
-  spec.license     = 'https://github.com/paypal/Checkout-Ruby-SDK/blob/master/LICENSE'
+  spec.homepage    = 'https://github.com/alanraul/Checkout-Ruby-SDK'
+  spec.license     = 'https://github.com/alanraul/Checkout-Ruby-SDK/blob/master/LICENSE'
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
