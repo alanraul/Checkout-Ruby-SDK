@@ -20,6 +20,7 @@ require_relative './payments/captures_refund_request'
 require_relative './subscriptions/plan_list_request'
 require_relative './subscriptions/plan_create_request'
 require_relative './subscriptions/subscription_create_request'
+require_relative './subscriptions/subscription_path_request'
 
 require_relative './products/product_create_request'
 require_relative './products/product_list_request'
